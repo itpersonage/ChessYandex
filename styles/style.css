@@ -198,3 +198,142 @@ a {
 .section-support_price_rigth a {
   text-decoration: none;
 }
+
+/* section-stages */
+
+.section-stages_title h1 {
+  font-size: 54px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.section-stages_title-df {
+  display: flex;
+}
+
+.section-stages_title-df p {
+  font-size: 20px;
+  line-height: 2px;
+  margin-left: 20px;
+  color: var(--color-font-blue);
+  font-weight: 500;
+}
+
+.section-stages_items {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 54px;
+  position: relative;
+}
+
+.aircraft {
+  position: absolute;
+  right: -63px;
+  top: 171px;
+}
+
+.section-stages_item3 {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.section-stages_item7 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+}
+
+.section-stages_item7 p {
+  max-width: 410px;
+}
+
+.section-stages_item {
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  background-image: url("./../images/Background.png");
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 112px;
+}
+
+.section-stages_item img {
+  width: 36px;
+  height: 36px;
+  margin-top: 20px;
+  margin-right: 16px;
+}
+
+
+/* section-participants */
+
+.section-participants {
+  margin-top: 172px;
+  margin-bottom: 140px;
+  overflow: hidden;
+}
+
+.section-participants_title h1 {
+  font-size: 54px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.section-participants_title button {
+  border: none;
+  background-color: white;
+}
+
+.section-participants_btns p {
+  margin-left: 17px;
+  margin-right: 17px;
+}
+
+
+.section-participants_items {
+  display: flex;
+  margin-top: 88px;
+}
+
+.section-participants_item {
+  height: 462px;
+  text-align: center;
+  margin-right: 18px;
+  padding-left: 37px;
+  padding-right: 37px;
+}
+
+.section-participants_item  h1{
+  font-size: 24px;
+  margin-top: 28px;
+}
+
+.section-participants_item  p{
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 20px;
+  flex-shrink: 0;
+}
+
+.section-participants_item button {
+  width: 113px;
+  height: 35px;
+  background-color: white;
+  font-weight: 500;
+  border: 1px solid var(--color-font-blue);
+  border-radius: 62px;
+  color: var(--color-font-blue);
+}
+
+.section-participants_item button:hover {
+  background-color: var(--color-font-blue);
+  color: white;
+}
+
+.section-footer {
+  padding-top: 40px;
+  height: 150px;
+  background-color: var(--background-footer);
+}
